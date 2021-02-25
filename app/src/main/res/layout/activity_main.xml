@@ -9,21 +9,21 @@
 
     <Button
         android:id="@+id/hbutton"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:text="enter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348" />
+        app:layout_constraintVertical_bias="0.486" />
 
     <TextView
         android:id="@+id/htext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:hint=" "
         android:padding="20dp"
         android:text="@string/textview1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,7 +31,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535" />
+        app:layout_constraintVertical_bias="0.663" />
 
     <EditText
         android:id="@+id/hedit"
